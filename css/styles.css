@@ -25,6 +25,7 @@ h1 {
 .header-logos {
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 .logo-ws {
   width: 12%;
@@ -37,11 +38,7 @@ h1 {
 .header-text {/*Main poster of Westsiders in the header*/
   font-family: Brush Script MT, cursive;
   font-size: 800%;
-  display: inline-block;
-  position: relative;
-  top: 10px;
-  left: 210px;
-  
+  display: inline-block; 
 }
 
 
