@@ -34,11 +34,13 @@ h1 {
 .logo-af {
   width: 10%;
   float: right;
+  margin: 8px auto 0 auto;
 }
 .header-text {/*Main poster of Westsiders in the header*/
   font-family: Brush Script MT, cursive;
-  font-size: 800%;
-  display: inline-block; 
+  font-size: 900%;
+  display: inline-block;
+  margin: 8px auto 0 auto; 
 }
 
 
