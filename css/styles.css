@@ -1,14 +1,13 @@
 /************* TAGS **************/
 body {
   margin: 0;
-  border-right: solid 3px;
-  border-left: solid 3px;
+  font-family: 'Anton', sans-serif;
 }
 
 h1 {
-  font-size: 2em;
-  margin: 0px;
   font-weight: bold;
+  font-family: 'Lobster', cursive;
+  margin: 0;
 }
 
 
@@ -22,25 +21,29 @@ h1 {
   border-top-style: solid;
   border-color: #3D3C42;
 }
+
 .header-logos {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
+
 .logo-ws {
   width: 12%;
   float: left;
 }
+
 .logo-af {
   width: 10%;
   float: right;
   margin: 8px auto 0 auto;
 }
+
 .header-text {/*Main poster of Westsiders in the header*/
-  font-family: Brush Script MT, cursive;
-  font-size: 900%;
+  font-size: 800%;
   display: inline-block;
-  margin: 8px auto 0 auto; 
+  margin: 8px auto auto auto;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 
