@@ -1,4 +1,8 @@
 /************* TAGS **************/
+html {
+  background-color: #EAF6F6;
+}
+
 body {
   margin: 0;
   font-family: 'Anton', sans-serif;
@@ -43,10 +47,17 @@ h1 {
   font-size: 800%;
   display: inline-block;
   margin: 8px auto auto auto;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
-
+.address-text {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  top: 10.5rem;
+  left: 56rem;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 
