@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: 'Anton', sans-serif;
 }
 
@@ -59,6 +58,17 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-color {
+  background-color: #1363DF;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom-style: solid;
+  border-color: #3D3C42;
+}
 
+.content-container {
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #EAF6F6;
+}
 
 /************* ID ****************/
