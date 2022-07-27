@@ -2,44 +2,162 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
     <title>Westsiders BJJ Klaipeda</title>
-
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 
     <link rel="icon" href="icons/westsiders.ico">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Lobster&family=Montserrat&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
   </head>
 
   <body>
-
-    <div class="header-container">
-      <div class="header-logos">
-        <img class="logo-ws" src="images/main-logo.jpeg" 
-        alt="westsider bjj logo">
-
-        <h1 class="header-text">Westsiders BJJ</h1>
-        <p class="address-text">Laukininkų g. 15A<br>Klaipėda</p>
-
-        <img class="logo-af" src="images/a-force.jfif" alt="a-force logo">
-        <!-- <h1 class="header-text">Westsiders BJJ</h1> -->
+    <div class="pt-5 container-header">
+      <div class="text-center">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="pe-5 container-logo1">
+              <figure class="figure">
+                <img src="images/main-logo.jpeg"
+                class="figure-img img-fluid logo-westsiders rounded"
+                alt="westsider bjj logo">
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="pt-3 container-westsiders">
+              <h1 class="header-text">Westsiders BJJ</h1>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="container-logo2">
+              <figure class="figure">
+                <img src="images/a-force.jpg"
+                class="figure-img img-fluid logo-westsiders pe-5 logo-aforce rounded"
+                alt="a-force bjj lietuva logo">
+              </figure>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- Header ends here -->
+
+    <!-- Navigation bar starts here -->
+    <div class="container-navbar">
+      <nav class="navbar navbar-expand-md navbar-vb-font"><!-- navbar-font is class created by myself-->
+        <div class="container-fluid text-center">
+          <!-- <a class="navbar-brand navbar-vb-brand" href="index.html">Westsiders BJJ</a> -->
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="socialMediaIcons">
+            <a href="https://www.facebook.com/bjj.klp" class="text-center">
+              <img id="vb-fb" src="images/fb.jpg" alt="">
+            </a>
+            <a href="https://www.instagram.com/a_force_bjj_klaipeda/">
+              <img id="vb-insta" src="images/insta.webp" alt="">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse vb-navbar-collaps">
+            <div class="row">
+              <div class="col-lg">
+                <!-- <a class="navbar-brand navbar-vb-brand" href="index.html">Westsiders BJJ</a> -->
+                <!-- <div class="socialMediaIcons">
+                  <a href="https://www.facebook.com/bjj.klp" class="text-center">
+                    <img id="vb-fb" src="images/fb.jpg" alt="">
+                  </a>
+                  <a href="https://www.instagram.com/a_force_bjj_klaipeda/">
+                    <img id="vb-insta" src="images/insta.webp" alt="">
+                  </a>
+                </div> -->
+              </div>
+              <div class="col-lg">
+                <!-- Keeping it empty! -->
+              </div>
+              <div class="col-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav" id="navbarTogglerDemo02">
+                  <li class="nav-item dropdown-item">
+                    <a class="nav-link vb-nav-pgs" href="galery.html">Galerija</a>
+                  </li>
+                  <li class="nav-item dropdown-item">
+                    <a class="nav-link vb-nav-pgs" href="classes.html">Klasės ir laikai</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown-item">
+                <a class="nav-link vb-nav-pgs" href="galery.html">Galerija</a>
+              </li>
+              <li class="nav-item dropdown-item">
+                <a class="nav-link vb-nav-pgs" href="classes.html">Klasės ir laikai</a>
+              </li>
+            </ul> -->
+          </div>
+          <!-- <div class="container-fluid vb-nav-2">
+            <p class="vb-findus">Surask mus</p>
+            <a href="https://www.facebook.com/bjj.klp">
+              <img id="vb-fb" src="images/fb.jpg" alt="">
+            </a>
+            <a href="https://www.instagram.com/a_force_bjj_klaipeda/">
+              <img id="vb-insta" src="images/insta.webp" alt="">
+            </a>
+          </div> -->
+        </div>
+      </nav>
+    </div>
+    <!-- Navigation bar ends here -->
+
+    <!-- Info. content starts here -->
+    <!-- <div class="container-fluid vb-nav-2">
+      <p class="vb-findus">Surask mus</p>
+      <a href="https://www.facebook.com/bjj.klp">
+        <img id="vb-fb" src="images/fb.jpg" alt="">
+      </a>
+      <a href="https://www.instagram.com/a_force_bjj_klaipeda/">
+        <img id="vb-insta" src="images/insta.webp" alt="">
+      </a>
+    </div> -->
+
+
+    <!-- Info. content ends here -->
+
+
+  
+
+    <!-- Content starts here -->
+    <div class="content-container">
+      <h1>Apie mūsų klubą</h1>
+
+    </div>
+    <!-- Content ends here -->
+
+    <!-- Footer starts here -->
+    <div class="footer-container">
+
+    </div>
+    <!-- Footer ends here -->
+
+
 
   </body>
 </html>
