@@ -4,8 +4,10 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: 'Anton', sans-serif;
+  /* font-family: 'Anton', sans-serif; */
+  margin: 1rem;
+  position: relative;
+  border: 3px solid;
 }
 
 h1 {
@@ -18,12 +20,13 @@ h1 {
 
 /************* CLASSES *************/
 
-.header-container {
+.container-header {
   display: inline-block;
   width: 100%;
   border-bottom-style: solid;
-  border-top-style: solid;
+  /* border-top-style: solid; */
   border-color: #3D3C42;
+  position: relative;
 }
 
 .header-logos {
@@ -32,33 +35,97 @@ h1 {
   text-align: center;
 }
 
-.logo-ws {
-  width: 12%;
-  float: left;
+.logo-westsiders {
+  width: 10vw;
+  /* float: left; */
 }
 
-.logo-af {
-  width: 10%;
-  float: right;
-  margin: 8px auto 0 auto;
+.logo-aforce {
+  width: 10vw;
 }
 
 .header-text {/*Main poster of Westsiders in the header*/
-  font-size: 800%;
+  font-size: 6.5vw;
   display: inline-block;
-  margin: 8px auto auto auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Righteous', cursive;
+  padding-bottom: 5vw;
 }
 
-.address-text {
-  display: inline-block;
-  margin: auto;
-  position: absolute;
-  top: 10.5rem;
-  left: 56rem;
+/* .container-logo1 .container-logo2 {
+  display: inline-block !important;
+} */
+
+.navbar-vb-font {
   font-family: 'Montserrat', sans-serif;
+  border-bottom-style: solid;
+  border-color: #3D3C42;
+}
+
+.vb-navbar-collaps {
+  display: inline-block !important;
+}
+
+.content-container {
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #EAF6F6;
+}
+
+.vb-nav-2 {
+  background-color: #EAF6F6 !important;
+  position: relative;
+}
+
+.socialMediaIcons {
+  float: left;
+}
+
+.vb-findus {
+  display: inline-block;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: large;
+  position: absolute;
+    top: 0.1rem;
+    right: 5.5rem;
+}
+
+.vb-nav-pgs {
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.vb-nav-pgs:hover {
+  opacity: 0.5;
 }
 
 
 
 /************* ID ****************/
+
+#vb-fb {
+  height: 2rem;
+  float: right;
+  margin-top: 0.1rem;
+}
+
+#vb-fb:hover {
+  opacity: 0.5;
+}
+
+#vb-insta {
+  height: 2rem;
+  float: right;
+  margin-top: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+#vb-insta:hover {
+  opacity: 0.5;
+}
+
+/************ FROM BOOTSTRAP ***************/
+
+.navbar-expand-md .navbar-collapse {
+  display: inline-block !important;
+}
