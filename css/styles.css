@@ -13,119 +13,104 @@ body {
 h1 {
   font-weight: bold;
   font-family: 'Lobster', cursive;
-  margin: 0;
 }
-
 
 
 /************* CLASSES *************/
 
-.container-header {
-  display: inline-block;
-  width: 100%;
-  border-bottom-style: solid;
-  /* border-top-style: solid; */
-  border-color: #3D3C42;
-  position: relative;
-}
-
-.header-logos {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
+.name-top {
+  font-size: 6vw;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+  line-height:2;
 }
 
 .logo-westsiders {
-  width: 10vw;
-  /* float: left; */
+  width: 12vw;
+  margin-top: 0.5vw;
 }
 
 .logo-aforce {
-  width: 10vw;
+  width: 9vw;
+  margin-top: 0.5vw;
 }
 
-.header-text {/*Main poster of Westsiders in the header*/
-  font-size: 6.5vw;
+.vb-dropdown {
+  font-family: 'Righteous';
+  font-size: large;
+  color: white;
+}
+
+.social-media-links {
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+.dropdown-nav {
+  text-align: center;
+}
+
+.text-navbar-social {
   display: inline-block;
   font-family: 'Righteous', cursive;
-  padding-bottom: 5vw;
+  margin-top: 8px;
+  margin-right: 12px;
+  margin-bottom: 0;
+  outline: 0;
 }
 
-/* .container-logo1 .container-logo2 {
-  display: inline-block !important;
-} */
-
-.navbar-vb-font {
-  font-family: 'Montserrat', sans-serif;
-  border-bottom-style: solid;
-  border-color: #3D3C42;
-}
-
-.vb-navbar-collaps {
-  display: inline-block !important;
-}
-
-.content-container {
-  text-align: center;
-  padding-top: 2rem;
-  background-color: #EAF6F6;
-}
-
-.vb-nav-2 {
-  background-color: #EAF6F6 !important;
-  position: relative;
-}
-
-.socialMediaIcons {
-  float: left;
-}
-
-.vb-findus {
+.text-navbar-centre {
   display: inline-block;
-  font-family: 'Lobster', cursive;
-  font-weight: bold;
-  font-size: large;
-  position: absolute;
-    top: 0.1rem;
-    right: 5.5rem;
+  font-family: 'Righteous', cursive;margin: 0;
 }
 
-.vb-nav-pgs {
-  font-weight: bold !important;
-  color: black !important;
+.social-media-logos {
+  display: inline-block;
 }
 
-.vb-nav-pgs:hover {
-  opacity: 0.5;
+.nav-p {
+  display: inline-block;
+  margin-bottom: 0;
 }
 
-
-
-/************* ID ****************/
-
-#vb-fb {
-  height: 2rem;
-  float: right;
-  margin-top: 0.1rem;
+.nav-p:hover {
+  color: gold;  
 }
 
-#vb-fb:hover {
-  opacity: 0.5;
+.text-navbar-centre {
+  color: white;
+  text-decoration: none;
 }
 
-#vb-insta {
-  height: 2rem;
-  float: right;
-  margin-top: 0.1rem;
-  margin-right: 0.1rem;
+.text-navbar-centre:hover {
+  color: gold;
 }
 
-#vb-insta:hover {
-  opacity: 0.5;
+/************* CLASSES from Bootstrap *************/
+.container {
+  max-width: 100%;
 }
 
-/************ FROM BOOTSTRAP ***************/
-
-.navbar-expand-md .navbar-collapse {
-  display: inline-block !important;
+.row {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
 }
+
+.img-thumbnail {
+  padding: 0;
+  border: none;
+  height: 40px;
+  border-radius: 1.375rem;
+}
+
+.navbar-toggler {
+  columns: white;
+}
+
+.dropdown-item {
+  font-family: 'Righteous', cursive;
+}
+/*************  ID *************/
